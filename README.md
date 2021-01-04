@@ -3,11 +3,8 @@
 就是照着大佬学习的
 
 ## 启动服务
-1. 找一个你喜欢的文件夹执行 `yarn init` 创建一个package.json
-2. yarn add nodemailer axios node-schedule 下载要用到的三个依赖：获取情话、邮件服务、定时任务
-3. 去你的邮箱开启邮件服务并获取授权码
-4. node index 或 yarn serve 启动服务；依次显示爱心启动、你的情话、即将发出、发送成功|发送失败
-
+1. `yarn install` 装下依赖
+2. 用到的模块 yarn add nodemailer axios node-schedule 
 ## 配置邮箱服务
 
 以163邮箱为例
